@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Exercises
+namespace Lib
 {
-    public static class Lib
+    public static class Exercises
     {
         public static void ShowExercise()
         {
-            var exercises = Exercises();
+            var exercises = GetExercises();
             var index = 1;
 
             foreach (var item in exercises)
@@ -18,7 +18,7 @@ namespace Exercises
             }
         }
 
-        static List<string> Exercises()
+        static List<string> GetExercises()
         {
             return new List<string>
             {
